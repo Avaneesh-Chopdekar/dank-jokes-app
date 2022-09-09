@@ -9,11 +9,10 @@ import com.example.dankjokes.databinding.ActivityMainBinding
 import kotlinx.coroutines.*
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
-import retrofit2.create
 
 class MainActivity : AppCompatActivity() {
-    lateinit var binding: ActivityMainBinding
-    var joke = ""
+    private lateinit var binding: ActivityMainBinding
+    private var joke = ""
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
