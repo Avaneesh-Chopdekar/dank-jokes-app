@@ -1,5 +1,8 @@
 package com.example.dankjokes
 
+import androidx.annotation.Keep
+
+@Keep
 data class ApiData(
     val joke: String,
     val category: String,

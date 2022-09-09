@@ -1,5 +1,8 @@
 package com.example.dankjokes
 
+import androidx.annotation.Keep
+
+@Keep
 data class Flags(
     val explicit: Boolean,
     val nsfw: Boolean,

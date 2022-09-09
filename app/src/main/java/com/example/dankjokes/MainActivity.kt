@@ -5,6 +5,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import androidx.annotation.Keep
 import com.example.dankjokes.databinding.ActivityMainBinding
 import kotlinx.coroutines.*
 import retrofit2.Retrofit
